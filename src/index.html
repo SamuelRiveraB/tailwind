@@ -5,24 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-blue-900 h-screen grid place-content-center">
+<body class="bg-blue-900 md:bg-green-200 h-screen grid place-content-center">
   <h1 class="text-3xl text-yellow-400 font-bold line-through">
     Hello world!
   </h1>
   <p class="decoration-slice text-slate-50">Test text in center</p>
-  <div class="p-5 max-w-sm mx-auto bg-white rounded-md shadow-lg flex items-center space-x-4">
+  <div class="max-w-sm md:max-w-lg mx-auto bg-white rounded-md shadow-lg overflow-hidden md:flex md:items-center md:space-x-4">
     <div>
-      <img class="h-14 w-14 rounded-xl" src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo">
+      <img class="object-cover h-72 md:h-36" src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo">
     </div>
-    <div>
-      <div>
-        <h2 class="text-lg font-bold text-blue-600">Tailwind CSS</h2>
-        <p class="text-slate-300 text-base">Testing purposes</p>
-      </div>
+    <div class="p-4">
+      <h2 class="text-lg font-bold text-blue-600">Tailwind CSS</h2>
+      <p class="text-slate-300 text-base">Testing purposes</p>
     </div>
   </div>
   <button class="bg-sky-500 hover:bg-sky-700 hover:text-rose-500 font-semibold rounded-lg m-5 text-base">
     Button
   </button>
+  <div class="text-center">
+    <p class="text-white sm:text-green-600 md:text-red-600 lg:text-yellow-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quia?</p>
+  </div>
 </body>
 </html>
