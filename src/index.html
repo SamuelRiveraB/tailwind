@@ -5,35 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-blue-900 md:bg-green-200 h-screen grid place-content-center">
-  <h1 class="text-3xl text-yellow-400 font-bold line-through">
-    Hello world!
-  </h1>
-  <p class="decoration-slice text-slate-50">Test text in center</p>
-  <div class="max-w-sm md:max-w-lg mx-auto bg-white rounded-md shadow-lg overflow-hidden md:flex md:items-center md:space-x-4">
-    <div class="transition ease-in-out delay-125 duration-300 hover:scale-110">
-      <img class="object-cover h-72 md:h-36" src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo">
+<body>
+  <nav class="w-full px-5 py-2 bg-green-600 flex items-center justify-between font-semibold">
+    <div>LOGO</div>
+    <ul class="md:flex hidden gap-2 lg:gap-10">
+      <li class="cursor-pointer">Home</li>
+      <li class="cursor-pointer">About</li>
+      <li class="cursor-pointer">Services</li>
+      <li class="cursor-pointer">Contact</li>
+    </ul> 
+    <button class="md:block hidden bg-sky-700 rounded-md p-2">Register</button>
+    <button class="md:hidden bg-sky-700 rounded-md py-1 px-3 text-2xl">&#8801</button>
+  </nav>
+  <div class="bg-blue-900 md:bg-green-200 grid place-content-center">
+    <h1 class="text-3xl text-yellow-400 font-bold line-through">
+      Hello world!
+    </h1>
+    <p class="decoration-slice text-slate-50">Test text in center</p>
+    <div class="max-w-sm md:max-w-lg mx-auto bg-white rounded-md shadow-lg overflow-hidden md:flex md:items-center md:space-x-4">
+      <div class="transition ease-in-out delay-125 duration-300 hover:scale-110">
+        <img class="object-cover h-72 md:h-36" src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo">
+      </div>
+      <div class="p-4">
+        <h2 class="text-lg font-bold text-blue-600">Tailwind CSS</h2>
+        <p class="text-slate-300 text-base">Testing <span class="bg-orange-500 p-[1px]">purposes</span></p>
+      </div>
     </div>
-    <div class="p-4">
-      <h2 class="text-lg font-bold text-blue-600">Tailwind CSS</h2>
-      <p class="text-slate-300 text-base">Testing <span class="bg-orange-500 p-[1px]">purposes</span></p>
+    <button class="bg-sky-500 hover:bg-sky-700 hover:text-rose-500 font-semibold rounded-lg m-5 text-base">
+      Button
+    </button>
+    <div class="text-center">
+      <p class="text-white sm:text-green-600 md:text-red-600 lg:text-yellow-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quia?</p>
     </div>
-  </div>
-  <button class="bg-sky-500 hover:bg-sky-700 hover:text-rose-500 font-semibold rounded-lg m-5 text-base">
-    Button
-  </button>
-  <div class="text-center">
-    <p class="text-white sm:text-green-600 md:text-red-600 lg:text-yellow-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quia?</p>
-  </div>
-  <div class="mt-10 bg-slate-800 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">1</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">2</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">3</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">4</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">5</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">6</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">7</div>
-    <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">8</div>
+    <div class="mt-10 bg-slate-800 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">1</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">2</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">3</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">4</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">5</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">6</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">7</div>
+      <div class="font-bold text-white p-4 bg-orange-500 rounded-md flex justify-center">8</div>
+    </div>
   </div>
 </body>
 </html>
